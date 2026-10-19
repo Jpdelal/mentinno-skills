@@ -1,0 +1,15 @@
+name: Sugerir una mejora
+description: Una idea para un módulo, una guía o un ejemplo
+title: "[Mejora] "
+labels: ["mejora"]
+body:
+  - type: textarea
+    id: situacion
+    attributes:
+      label: Situación de negocio que no queda cubierta
+    validations:
+      required: true
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: Qué cambio propones
