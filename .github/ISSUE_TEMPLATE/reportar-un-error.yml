@@ -1,0 +1,30 @@
+name: Reportar un error
+description: El skill o un script dio un resultado incorrecto o falló
+title: "[Error] "
+labels: ["error"]
+body:
+  - type: input
+    id: comando
+    attributes:
+      label: Comando o pregunta que usaste
+      placeholder: python3 scripts/ab_test.py leer datos.csv --grupo grupo --resultado compro
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Qué esperabas y qué obtuviste
+    validations:
+      required: true
+  - type: textarea
+    id: entorno
+    attributes:
+      label: Versiones
+      description: Versión de Python, pandas, numpy, scipy, statsmodels y scikit-learn
+    validations:
+      required: true
+  - type: textarea
+    id: datos
+    attributes:
+      label: Muestra de datos anonimizada
+      description: No incluyas información personal.
