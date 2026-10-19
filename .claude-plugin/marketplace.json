@@ -1,0 +1,19 @@
+{
+  "name": "mentinno-skills",
+  "owner": {
+    "name": "Juan Pablo Del Alcázar Ponce"
+  },
+  "metadata": {
+    "description": "Skills de Claude para analítica, negocios y educación con inteligencia artificial, de Mentinno.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "analitica-marketing-mentinno-coach",
+      "description": "Convierte una base de datos de marketing y una pregunta de negocio en una decisión con semáforo de confianza: RFM, regresión, propensión, mezcla de medios, pruebas A/B, uplift, valor de vida y atribución.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/analitica-marketing-mentinno-coach"]
+    }
+  ]
+}
