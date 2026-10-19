@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Si usas este software en clase, investigación o consultoría, cítalo con estos datos."
+type: software
+title: "Mentinno skills: analítica de marketing con coach para Claude"
+version: 1.0.0
+date-released: 2026-10-19
+license: MIT
+repository-code: "https://github.com/jpdelal/mentinno-skills"
+url: "https://github.com/jpdelal/mentinno-skills"
+abstract: "Skills de Claude para analítica de marketing y negocios, con 14 módulos (descriptivo, RFM, regresión, propensión, mezcla de medios, pruebas A/B, uplift, diferencias en diferencias, valor de vida del cliente y atribución) validados contra datos simulados con respuesta conocida."
+keywords:
+  - analítica de marketing
+  - claude
+  - agent skills
+  - educación
+  - inteligencia artificial
+authors:
+  - family-names: "Del Alcázar Ponce"
+    given-names: "Juan Pablo"
+    orcid: "https://orcid.org/0000-0002-5444-1691"
+    affiliation: "Mentinno; Universidad San Francisco de Quito"
